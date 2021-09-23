@@ -173,7 +173,7 @@ int main(int argc, char *argv[])
 
     printf("client: received '%s'\n",buf);
 
-    close(sockfd);
+//    close(sockfd);
 	free(http_header);
 
 	FILE *fp;
