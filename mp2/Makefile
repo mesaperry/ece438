@@ -1,7 +1,7 @@
 CXX = g++
 
 #If you use threads, add -pthread here.
-COMPILERFLAGS = -g -Wall -Wextra -Wno-sign-compare -Iinclude/ -std=c++14
+COMPILERFLAGS = -g -Wall -Wextra -Wno-sign-compare -Iinclude/ -std=c++11
 
 #Any libraries you might need linked in.
 LINKLIBS = -lpthread
