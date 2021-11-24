@@ -1,0 +1,24 @@
+est results:
+
+  sanity check: transfer single byte succeeded!
+ transfer 50K succeeded!
+-10:  utilize empty link failed: your sender/receiver didn't terminate within 20s. your receiver wrote 0 of 10000000 bytes to disk.
+
+-10:   drop rate=0.05 failed: received file had an error.
+
+  drop rate=0.1 succeeded!
+-10:  quick convergence failed: failed to send 20MB in 30s (receiver wrote 3895296 bytes)
+
+ TCP friendliness succeeded! (TCP got 22.0 Mbps)
+ TCP friendliness with 1% loss succeeded! (TCP got 18.2 Mbps)
+ -10:  competition vs TCP failed: your receiver wrote 139264 of 10MB to disk in 50 seconds.
+
+(current version late: -80%)
+
+====================
+
+version:2
+score: 12/100
+all-time best score (your current grade): 12/100
+
+
