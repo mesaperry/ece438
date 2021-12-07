@@ -45,14 +45,14 @@ int main(int argc, char** argv) {
     L = std::stoi(line.substr(2));
 
     getline(file_in, line);
+    M = std::stoi(line.substr(2));
+
+    getline(file_in, line);
     std::stringstream iss(line.substr(2));
     int number;
     while (iss >> number) {
         Rs.push_back(number);
     }
-
-    getline(file_in, line);
-    M = std::stoi(line.substr(2));
 
     getline(file_in, line);
     T = std::stoi(line.substr(2));
