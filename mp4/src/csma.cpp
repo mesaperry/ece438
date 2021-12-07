@@ -86,6 +86,7 @@ int main(int argc, char** argv) {
                 if (tx_node.transmission_ct == L) {
                     tx_node.backoff = (tx_node.id + tick + 1) % Rs[tx_node.collision_ct];
                     tx_node.transmission_ct = 0;
+                    tx_node.collision_ct = 0;
                 }
                 break;
             }
